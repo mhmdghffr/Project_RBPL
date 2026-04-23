@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F7FA;
+    color: #2C3E50;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Tombol kembali */
+a {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #2D9CDB;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #56CCF2;
+}
+
+/* FORM FILTER */
+form {
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Input */
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #E0E6ED;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    padding: 8px 15px;
+    background: #2D9CDB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #56CCF2;
+}
+
+/* Reset link beda warna */
+form a {
+    background: #EB5757;
+}
+
+form a:hover {
+    background: #ff7676;
+}
+
+/* Section per tanggal */
+hr {
+    margin: 25px 0 15px;
+    border: none;
+    border-top: 2px solid #E0E6ED;
+}
+
+/* Tanggal */
+h4 {
+    margin-bottom: 5px;
+}
+
+/* Total uang */
+p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #27AE60;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 15px;
+}
+
+/* Header */
+th {
+    background: #2D9CDB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cell */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #E0E6ED;
+    text-align: center;
+}
+
+/* Zebra */
+tr:nth-child(even) {
+    background: #F9FBFD;
+}
+
+/* Hover */
+tr:hover {
+    background: #EAF6FD;
+}
+
+/* Jumlah obat highlight */
+td:last-child {
+    font-weight: bold;
+}
+
+/* Tidak ada data */
+body p:only-of-type {
+    color: #888;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+}

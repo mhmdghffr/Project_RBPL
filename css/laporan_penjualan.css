@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F7FA;
+    color: #2C3E50;
+    padding: 20px;
+}
+
+/* Judul */
+h3 {
+    margin-bottom: 15px;
+}
+
+/* Form */
+form {
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+}
+
+/* Label */
+label {
+    font-size: 14px;
+}
+
+/* Input */
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #E0E6ED;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #2D9CDB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #56CCF2;
+}
+
+/* Card */
+.card {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Header */
+th {
+    background: #2D9CDB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cell */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #E0E6ED;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Zebra */
+tr:nth-child(even) {
+    background: #F9FBFD;
+}
+
+/* Hover */
+tr:hover {
+    background: #EAF6FD;
+}
+
+/* Tidak ada data */
+.text-center {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+/* Divider */
+hr {
+    margin: 15px 0;
+    border: none;
+    border-top: 1px solid #E0E6ED;
+}
+
+/* Ringkasan */
+h5 {
+    margin-top: 10px;
+}
+
+h4 {
+    margin-top: 5px;
+    color: #27AE60;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    table, th, td {
+        font-size: 12px;
+    }
+}
